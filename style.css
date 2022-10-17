@@ -66,7 +66,7 @@ button:hover{
 .search button{
     width:45%
 }
-.output-table{overflow-x: scroll;}
+.output-table{overflow-x: auto;}
 table{
     width: 100%;
     text-align: center;
