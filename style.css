@@ -25,6 +25,7 @@ input{
     border:none;
     outline: none;
     border-radius: 5px;
+    height:30px
 }
 input:focus{
     background-color: #000;
@@ -51,6 +52,7 @@ button{
     transition: 0.3s;
     position: relative;
     margin: 10px 0;
+    height:45px
 }
 /* #submit::before{
     content: "";
