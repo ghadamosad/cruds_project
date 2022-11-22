@@ -110,6 +110,7 @@ function readData(){
         <tr>
         `
         document.getElementById('tbody').innerHTML = table;
+    }
 
         let btnDel=document.getElementById("deleteAl");
         if(arr.length > 0){
@@ -120,7 +121,7 @@ function readData(){
         else{
             btnDel.innerHTML = ''
         }
-    }
+    
     totalPrice()
 }
 readData();
